@@ -1,0 +1,2 @@
+add_subdirectory(hmip_generate_auth_token)
+add_subdirectory(hmip_cli_async)

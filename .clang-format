@@ -1,0 +1,32 @@
+BasedOnStyle: WebKit
+IndentWidth: 4
+UseTab: Never
+NamespaceIndentation: All
+IndentCaseLabels: true
+PointerAlignment: Right
+ColumnLimit: 270
+SortIncludes: false
+
+AllowShortFunctionsOnASingleLine: false
+AlignAfterOpenBracket: true
+AlwaysBreakTemplateDeclarations: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+
+# Configure each individual brace in BraceWrapping
+#BreakBeforeBraces: Attach
+BreakBeforeBraces: 'Custom'
+
+# Control of individual brace wrapping cases
+BraceWrapping: {
+    AfterClass: 'false'
+    AfterControlStatement: 'false'
+    AfterEnum : 'false'
+    AfterFunction : 'false'
+    AfterNamespace : 'false'
+    AfterStruct : 'false'
+    AfterUnion : 'false'
+    BeforeCatch : 'true'
+    BeforeElse : 'true'
+    IndentBraces : 'false'
+}
